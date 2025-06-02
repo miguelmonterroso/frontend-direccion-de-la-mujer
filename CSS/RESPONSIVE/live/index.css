@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+main{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.banner1{
+    width: 100%;
+}
+
+.banner1 img{
+    width: 100%;
+}
+
+.banner2{
+    width: 100%;
+    background-color: #FDBB1F;
+}
+
+.banner2 img{
+    width: 100%;
+}
+
+.banner2 div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: -50px;
+}
+
+.banner2 div h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.banner2 div button{
+    background-color: white;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 15px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.contenedor{
+    width: 100%;
+}
+
+
+.contenedor .carta{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(207, 207, 207);
+
+}
+
+.carta img{
+    width: 50%;
+    object-fit: cover;
+}
+
+.carta div{
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.carta div h2{
+    text-align: right;
+}
+
+.carta div p{
+    text-align: center;
+}
+
+.reversa{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.reversa div h2{
+    text-align: left;
+}
+
+.button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FDBB1F;
+    font-weight: 900;
+}
+
+.seccion4{
+    background-color: #DC2626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.contenedorImagen{
+    padding: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.contenedorImagen img{
+    width: 100px;
+}
+
+.seccion4 h2{
+    color: white;
+    font-size: 40px;
+}
+
+.seccion4 .contenedorCartas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.contenedorCartas article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    color: white;
+}
+
+
+
+@media screen 
+  and (min-device-width: 650px) 
+  and (max-device-width: 1600px) 
+{
+    .banner2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner2 img{
+        width: 50%;
+    }
+
+    .banner2 div{
+        width: 50%;
+        margin-top: 0;
+    }
+
+    .banner2 div button{
+        align-self: flex-end;
+        font-size: 20px;
+    }
+
+    .contenedor{
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .carta{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .carta div{
+        width: 90%;
+        justify-content: space-between;
+        height: 250px;
+    }
+
+    .carta div h2{
+        text-align: center;
+    }
+
+    .seccion4 .contenedorCartas{
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 1000px;
+    }
+}

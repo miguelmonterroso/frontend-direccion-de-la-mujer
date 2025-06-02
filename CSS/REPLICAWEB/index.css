@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    width: 140px;
+    z-index: 1;
+}
+
+.rojo{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+select{
+    z-index: 2;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(137, 137, 137);
+    border-radius: 5px;
+}
+
+header section{
+    display: flex;
+    gap: 15px;
+}
+
+.seccion1{
+    background-image: url('https://mapandfire.com/wp-content/uploads/2021/09/netflix-brand-hero-image.jpg');
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    z-index: 0;
+}
+
+.seccion1 article{
+    text-align: center;
+    height: 100%;
+    background: #000000;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.68) 65%, rgba(0, 0, 0, 0.47) 100%);
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.seccion1 article h1{
+    font-size: 40px;
+}
+
+.seccion1 article form{
+    height: 80px;
+}
+
+.seccion1 article form input{
+    background-color: rgba(0, 0, 0, 0.819);
+    border: 1px solid rgb(133, 133, 133);
+    color: white;
+    height: 50px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.agrandado{
+    height: 50px;
+    width: 120px;
+}
+
+.seccion2{    
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+}
+
+.seccion2 div{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion2 div img{
+    width: 150px;
+}
+
+.seccion3{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.seccion3 section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bloque{
+    width: 460px;
+    height: 200px;
+    background-color: beige;
+    background: #1151b8;
+    background: radial-gradient(circle, rgba(17, 81, 184, 1) 62%, rgba(166, 58, 153, 1) 100%);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bloque div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bloque div img{
+    width: 50px;
+}
+
+.seccion4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 30px;
+}
+
+.seccion4 form input{
+    background-color: rgba(62, 62, 62, 0.887);
+    border: 1px solid rgb(133, 133, 133);
+    color: white;
+    height: 50px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 5px;
+}

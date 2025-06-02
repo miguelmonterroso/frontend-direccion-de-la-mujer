@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+div{
+    background-color: blue;
+    border: 2px rgb(7, 211, 211) solid;
+    text-align: center;
+}
+
+.carta{
+    background-color: aqua;
+    border: 2px rgb(249, 1, 1) solid;
+    height: 50px;
+}
+
+.padre{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section{
+    background-color: blueviolet;
+    text-align: center;
+    border: 2px green solid;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+article{
+    background-color: cadetblue;
+    border: yellow 2px solid;
+    padding: 20px 30px 40px 50px;
+    margin: 10px 20px 30px 40px;
+}

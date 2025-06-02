@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.grid{
+    background-color: blueviolet;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
+}
+
+
+.tarjeta .position{
+    position: relative;
+    display: flex;
+}
+
+.guest{
+    border-radius: 13px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition-duration: 800ms;
+}
+
+.guest:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.emoji{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    transition-duration: 800ms;
+}
+
+.emoji:hover{
+    font-size: 25px;
+}
+
+.position .superior{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.tarjeta h2{
+    font-size: 20px;
+}
+
+.tarjeta p{
+    font-size: 13px;
+}
