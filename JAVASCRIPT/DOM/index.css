@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: dodgerblue;
+    flex-direction: column;
+    gap: 30px;
+}
+
+button{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: hotpink;
+    color: white;
+}
+
+
+.carta{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(81, 3, 137);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.esconder{
+    display: none;
+}
