@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.logo{
+    width: 250px;
+}
+
+#render{
+    width: 95%;
+    background: darkred;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carta{
+    width: 33%;
+    max-width: 250px;
+    height: 250px;
+    background-color:dimgrey;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px
+}
+
+.btn{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: darkseagreen;
+}
